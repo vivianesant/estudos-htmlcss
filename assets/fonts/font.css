@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: 'fontt1';
     src: url('fontt1.woff2');
@@ -17,10 +18,31 @@
 @font-face {
     font-family: 'fontt4';
     src: url('fontt4.woff2');
+=======
+@font-face  {
+font-family: 'font1';    
+src: url('../fonts/fontt1.woff2');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('../fonts/fontt2.woff2');
+}
+
+@font-face {
+    font-family: 'font3';
+    src:url('../fonts/fontt3.woff2');
+}
+
+@font-face {
+    font-family: 'font4';
+    src: url('../fonts/fontt4.woff2');
+>>>>>>> a377c69c60a485a1a21aa9ea2289e240a784e498
 }
 
 @font-face {
     font-family: 'font5';
+<<<<<<< HEAD
     src: url('font5.woff2');
 }
 
@@ -46,4 +68,17 @@
 @font-face {
     font-family: 'discfont3';
     src: url('../../assets/fonts/discfont3.woff2');
+=======
+    src: url('../fonts/font5.woff2');
+}
+
+@font-face {
+    font-family: 'font6';
+    src: url('../fonts/fontt6.woff2');
+}
+
+@font-face {
+    font-family: 'font7';
+    src: url('../fonts/fontt7.woff2');
+>>>>>>> a377c69c60a485a1a21aa9ea2289e240a784e498
 }

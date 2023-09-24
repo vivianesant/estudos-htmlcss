@@ -1,0 +1,610 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.faixa1 {
+    display: flex;
+    flex-direction: row;
+  
+
+}
+
+.nav {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: #404eed;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav img {
+    width: 124px;
+    height: 39px;
+    margin: 0px 113px;
+
+}
+
+.nav a {
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'font3';
+    color: #f6f6f6;
+}
+
+
+.button {
+    display: flex;
+    margin: 16px 70px;
+    height: 38px;
+    width: 125px;
+    
+
+}
+.button a {
+    display: flex;
+    color: black;
+    align-items: center;
+    border-radius: 28px;
+    background-color: white;
+    justify-content: center;
+    font-size: 14px;
+}
+
+
+.conteudo {
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    background-color: #404eed;
+    height: 40vw;
+    
+    
+}
+
+.descricaox {
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+}
+.titulo {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    color: white;
+    width: 40vw;
+   
+    
+}
+
+    #titulo1  {
+        font-family:'font1';
+        font-size: 56px;
+        line-height: 59px;        
+    }
+
+.descrição {
+    display:flex;
+    align-self: center;
+    text-align: center;
+    width: 50vw;
+    color: white;
+    font-size: 20px;
+    font-family: 'font2';
+    margin-top: 40px;
+   
+}
+
+
+.botões {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px -20px 0px 0px;
+   
+    
+}
+.botões a {
+    padding: 12px 32px 15px;
+    height: 56px;
+    width: 270px;
+    margin: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    margin-left: 0px;
+    font-size: 19px;
+    
+}
+
+#botao2 {
+    background-color: #ffffff;
+    color:#23272A;
+    font-family: 'font3';
+    font-size: 19px;
+}
+
+#botaox {
+    background-color: #23272A;
+    width: 340px;
+}
+
+.descrição p {
+    line-height: 30px;
+}
+
+.fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#nuvens {
+    background-attachment: local;
+    margin-left: -1280px;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    z-index: 0;
+    overflow: clip;
+    
+}
+
+#botinha {
+    display: block;
+    margin-left: -1030px;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+
+#juice {
+    display: block;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    margin-left: 370px;
+    
+}
+
+.faixa2 {
+    display: flex;
+    
+   
+}
+
+.conteudo2 {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 120px 40px;
+    justify-content: space-evenly;
+
+   
+}
+
+.texto {
+    width: 380px;
+    height: 474px;
+}
+
+.texto h1 {
+    font-family: 'font6';
+    font-size: 48px;
+    width: 23vw;
+    
+    color: #23272A;
+}
+
+.texto p {
+    font-family: 'font3';
+    width: 380px;
+    height: 162px;
+    line-height: 1.625;
+    font-size: 20px;
+    margin-top: 24px;
+    color:#23272A;
+}
+
+#chat {
+    width: 678px;
+    height: 439px;
+    
+}
+
+
+
+.faixa3 {
+    display: flex;
+    
+   
+}
+
+.conteudo3 {
+    background-color: #f6f6f6;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 120px 40px;
+    justify-content: space-evenly;
+
+   
+}
+
+.texto2 {
+    width: 380px;
+    height: 474px;
+}
+
+.texto2 h1 {
+    font-family: 'font6';
+    font-size: 48px;
+    width: 23vw;
+    
+    color: #23272A;
+}
+
+.texto2 p {
+    font-family: 'font3';
+    width: 380px;
+    height: 162px;
+    line-height: 1.625;
+    font-size: 20px;
+    margin-top: 24px;
+    color:#23272A;
+}
+
+#chat {
+    width: 678px;
+    height: 439px;
+    
+}
+
+.faixa4 {
+    display: flex;
+    
+   
+}
+
+.conteudo4 {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 120px 40px;
+    justify-content: space-evenly;
+
+   
+}
+
+.texto3 {
+    width: 380px;
+    height: 474px;
+}
+
+.texto3 h1 {
+    font-family: 'font6';
+    font-size: 48px;
+    width: 23vw;
+    
+    color: #23272A;
+}
+
+.texto3 p {
+    font-family: 'font3';
+    width: 380px;
+    height: 162px;
+    line-height: 1.625;
+    font-size: 20px;
+    margin-top: 24px;
+    color:#23272A;
+}
+
+#chat {
+    width: 678px;
+    height: 439px;
+    
+}
+
+
+
+.faixa5 {
+    display: flex;
+    
+}
+
+.conteudo5 {
+    background-color: #f6f6f6;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 40px 80px;
+
+   
+}
+
+.texto4 {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    height: 164px;
+    margin-left: 12vw;
+    
+}
+
+.texto4 h1 {
+    display: flex;
+    font-family: 'font1';
+    font-size: 40px;
+    width: 980px;
+    height: 76px;
+  
+    margin-bottom: 30px;
+    text-align: center;
+    color: #23272A;
+}
+
+.texto4 p {
+    display: flex;
+    font-family: 'font2';
+    width: 980px;
+    height: 65px;
+    line-height: 1.625;
+    font-size: 20px;
+    
+    margin-top: 20px;
+    text-align: center;
+    color:#23272A;
+}
+
+#group {
+    align-self: center;
+    margin-top: 16px;
+    width: 1180px;
+    height: 715px;
+    
+}
+
+.faixax {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 90%;
+}
+
+
+.button2 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    margin: 90px 0px 120px;
+    width: 100%;
+    padding: 0px 40px;
+    
+}
+
+
+.stars {
+    position: absolute;
+    top: -0px;
+    bottom: auto;
+    left: 32%;
+    right: 20%;
+    width: 535px;
+    height: 49px;
+    
+    max-width: none;
+
+}
+
+.button2 h2 {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 480px;
+    height: 32px;
+    font-family: 'font6';
+    align-self: center;
+}
+
+.botões2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 670px;
+    height: 71px;
+    margin-top: 40px;
+    
+}
+#botao1 {
+    background-color: #5865F2;
+    padding: 16px 32px;
+    font-family: 'font4';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    height: 55px;
+    width: 275px;
+}
+
+.faixa6{
+    display: flex;
+    flex-direction: row;
+    background-color: #23272a;
+    height: 500px;
+    padding: 80px 0px 64px;
+}
+
+.acessar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 56px;
+    margin-left: 56px;
+    width: 250px;
+    height: 61px;
+}
+
+.acessar > h1 {
+    color: #5865f2;
+    font-family: 'font1';
+    font-size: 32px;
+    line-height: 30px;
+    
+}
+
+.legenda {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;      
+}
+
+.legenda img {
+    width: 23px;
+    height:16px;
+}
+
+.idioma {
+    font-family: 'font2';
+    color:rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+ .contatos  {
+    margin-top: 24px;
+    margin-right: 8px;
+    color: white;
+    width: 180px;
+ }
+
+ svg {
+    width: 23px;
+    height: 23px;
+    margin-left: 8px;
+    margin-right: 4px;
+ }
+
+.espaco {
+    width: 80px;
+    height: 300px
+}
+.catalogo {
+    display:flex;
+    flex-direction: row;
+
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+ a {
+    color:rgb(255, 255, 255);
+    font-family: 'font2';
+    font-size: 16px;
+    margin-top: 8px;
+    width: 180px;
+ }
+
+ .recursos > h5 {
+    color: #5865f2;
+    font-family: 'font3';
+    font-size: 16px;
+    margin-top: 8px;
+
+ }
+
+.empresa {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    
+}
+
+.recursos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.politica {
+    display: flex;
+    flex-direction: column;
+    margin-right: 56px;
+    
+}
+
+.rodape {
+    background-color: #23272a;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.divisao {
+    display: flex;
+    align-items: center;
+    background-color: #5865f2;
+    width: 85vw;
+    height: 1px;
+    margin-bottom: 32px;
+}
+
+.rdp2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    height: ;
+    background-color: #23272a;
+}
+
+.rdp2 > svg {
+    color: white;
+    width: 123px;
+    height: 33px;
+    margin-bottom: 64px;
+}
+
+.redirecionar {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.redirecionar > a {
+    color: black;
+    border: 15px solid white;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 30px;
+}
