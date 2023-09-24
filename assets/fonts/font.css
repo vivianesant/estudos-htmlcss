@@ -1,0 +1,34 @@
+@font-face  {
+font-family: 'font1';    
+src: url('../fonts/fontt1.woff2');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('../fonts/fontt2.woff2');
+}
+
+@font-face {
+    font-family: 'font3';
+    src:url('../fonts/fontt3.woff2');
+}
+
+@font-face {
+    font-family: 'font4';
+    src: url('../fonts/fontt4.woff2');
+}
+
+@font-face {
+    font-family: 'font5';
+    src: url('../fonts/font5.woff2');
+}
+
+@font-face {
+    font-family: 'font6';
+    src: url('../fonts/fontt6.woff2');
+}
+
+@font-face {
+    font-family: 'font7';
+    src: url('../fonts/fontt7.woff2');
+}
